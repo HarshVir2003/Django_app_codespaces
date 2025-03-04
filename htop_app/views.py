@@ -19,7 +19,7 @@ def index(request):
 
     os.remove('tmp')
 
-    formatted_output = top_output.replace("\r", "\n")
+    # formatted_output = top_output.replace("\r", "\n")
     # print(formatted_output)
 
     context = {'name': name, "user_name": user_name, 'time': ind_time, 'top_output': top_output}
